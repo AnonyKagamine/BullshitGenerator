@@ -74,5 +74,5 @@ function loadMDI(mdi_url="../MessengerDataIndex/index.json") {
     req.send()
 }
 
-loadData();
+loadData("../MessengerData/v1/00_classic.json", true);
 loadMDI();
